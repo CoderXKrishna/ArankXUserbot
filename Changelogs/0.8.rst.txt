@@ -31,6 +31,6 @@ Changelog 📃 :
 Report Bugs and Suggestions in comments of `this post <https://t.me/Krish_Userbot_Support/3>`_
 =====================================================================================
 
-**📌 To update your Hêllẞø† do** ``.update build``
+**📌 To update your Krishẞø† do** ``.update build``
 
 :Regards: `@Itsz_Krish_Babess`_
