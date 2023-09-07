@@ -1,5 +1,5 @@
 ========================
-HellBot Version Update
+Krishna UserBot Version Update
 ========================
 
 +-------------------------+
@@ -12,8 +12,8 @@ Changelog 📃 :
 * Due to heroku account suspension issue removed 3 plugins. ``memify.py, imgmemes.py, img_edits.py``. 
 * Added Multi-Clients. Now you can use 5 userbots by deploying one app in heroku.
 * Changes whole base of HellBot. Now it's faster, smoother and supports 5 telegram account in one deploy.
-* To use 5 accounts you need to fill up Heroku vars. ``STRING_2``, ``STRING_3``, ``STRING_4``, ``STRING_5``. Default string ``HELLBOT_SESSION`` acts as first client. 
-* Note that it's not mandatory to fill all 5 variables. If you want single client then fillup ``HELLBOT_SESSION`` only. And if you want 2 clients then fill up ``STRING_2`` along with ``HELLBOT_SESSION``. 
+* To use 5 accounts you need to fill up Heroku vars. ``STRING_2``, ``STRING_3``, ``STRING_4``, ``STRING_5``. Default string ``KRISHBOT_SESSION`` acts as first client. 
+* Note that it's not mandatory to fill all 5 variables. If you want single client then fillup ``KRISHBOT_SESSION`` only. And if you want 2 clients then fill up ``STRING_2`` along with ``KRISHBOT_SESSION``. 
 * You'll have to add your another clients to same logger, pm_logger, tag_logger channel to work properly.
 * Fixed every other issues that you all mentioned earlier.
 * Fixed alive image and help image too.
@@ -27,7 +27,7 @@ Changelog 📃 :
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-Report Bugs and Suggestions in comments of `this post <https://t.me/its_hellbot/49>`_
+Report Bugs and Suggestions in comments of `this post <https://t.me/Krish_Userbot_Support/3>`_
 =====================================================================================
 
-:Regards: `@ForGo10God <https://t.me/forgo10god>`_
+:Regards: `@Itsz_Krish_Babess`_
