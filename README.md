@@ -19,32 +19,30 @@
 ![GitHub forks](https://img.shields.io/github/forks/The-KrishBot/Krishbot?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/The-KrishBot/Krishbot?style=social)
 
-![Repo Size](https://img.shields.io/github/repo-size/The-HellBot/HellBot?&style=social&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/The-Krishbot/Krishbot?&style=social&logo=github)
 ![Branch](https://img.shields.io/badge/Branch-Master-white?&style=social&logo=github)
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-![GitHub license](https://img.shields.io/github/license/The-HellBot/HellBot?&style=social&logo=github)
+![GitHub license](https://img.shields.io/github/license/The-Krishbot/Krishbot?&style=social&logo=github)
 
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-![GitHub language count](https://img.shields.io/github/languages/count/The-HellBot/HellBot?&style=social&logo=hyper)
+![GitHub language count](https://img.shields.io/github/languages/count/The-Krishbot/Krishbot?&style=social&logo=hyper)
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/Krishna_Userbot_Chat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/Krish_Userbot_Support)
 
-[![Documentation](https://img.shields.io/badge/Documentations-docs.hellbot.tech-white?&style=social&logo=gitbook)](https://hellbot.tech)
+[![Documentation](https://img.shields.io/badge/Documentations-docs.Krishbot.tech-white?&style=social&logo=gitbook)](https://Krishbot.tech)
 
 ------
 ## Deploy 🚀
-- [![Heroku](https://img.shields.io/badge/HellBot-Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku)](#Deploy-To-Heroku)
+- [![Heroku](https://img.shields.io/badge/Krishbot-Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku)](#Deploy-To-Heroku)
 
-- [![Railway](https://img.shields.io/badge/HellBot-Deploy%20On%20Railway-black?style=for-the-badge&logo=railway)](#Deploy-on-Railway)
+- [![Railway](https://img.shields.io/badge/Krishbot-Deploy%20On%20Railway-black?style=for-the-badge&logo=railway)](#Deploy-on-Railway)
 
-- [![Locally](https://img.shields.io/badge/HellBot-Deploy%20Locally-black?style=for-the-badge&logo=linux)](#Deploy-Locally)
+- [![Locally](https://img.shields.io/badge/Krishbot-Deploy%20Locally-black?style=for-the-badge&logo=linux)](#Deploy-Locally)
 
 ------
-## YouTube 📺
-- [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC7Jr0FnRApx5nJASUfOjqJQ?style=social)](https://youtube.com/channel/UC7Jr0FnRApx5nJASUfOjqJQ)
-- [![YouTube Video Views](https://img.shields.io/youtube/views/leMyoT-qDH4?label=Tutorial+•+Heroku+•&style=social)](https://youtu.be/leMyoT-qDH4)
+
 
 ------
 ## Deploy To Heroku
@@ -61,26 +59,26 @@
 - Every mandatory variables are listed [Here](#Variables).
 - Fork & Star this repo.
 - Some commands might not work properly on railway.
-- Due to railway's privacy policy I removed railway button from repo. But you can get deploy guide in our [@HellBot_Chat](https://t.me/hellbot_chat). Type `#railway` to get deploy guide.
+- Due to railway's privacy policy I removed railway button from repo. But you can get deploy guide in our [@Krishbot_Chat](https://t.me/Krishbot_chat). Type `#railway` to get deploy guide.
 
 ------
 ## Deploy Locally
-- Get detailed guide at [docs.hellbot.tech](https://docs.hellbot.tech/hellbot-userbot/deploy-locally)
+- Get detailed guide at [docs.krishbot.tech](https://docs.krishbot.tech/krishna-userbot/deploy-locally)
 
 ------
 ## Variables
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `HELLBOT_SESSION`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
+- `Krishbot_SESSION`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `HANDLER`  =  Your command handler.
 - `DATABASE_URL`  =  A Postgresql database url.
 
-`For all config variables and their detailed explanation go to` [docs.hellbot.tech](https://docs.hellbot.tech/hellbot-userbot/config-variables)
+`For all config variables and their detailed explanation go to` [docs.krishbot.tech](https://docs.krishbot.tech/krishna-userbot/config-variables)
 
 ------
-## HellBot Session
+## KrishBot Session
 
 ### Repl
 - Open Repl Link.
@@ -88,11 +86,11 @@
 - Wait for requirements to finish.
 - Do human verification.
 - Select the type of session.
-    - HellBot Session
+    - Krishbot Session
         - Fill API ID, API HASH, Phone number (with country code).
         - Paste the OTP received on Telegram.
         - If You have Enabled 2-Step Verification then fill your password.
-        - Your HellBot Session Will be saved in your Telegram Saved Message.
+        - Your KrishBot Session Will be saved in your Telegram Saved Message.
     - Telethon
         - Fill API ID, API HASH, Phone number (with country code).
         - Paste the OTP received on Telegram.
@@ -110,16 +108,16 @@
         - Copy it carefully and Do Not Share With Anyone!
         - Using a fake account is recommended.
 
-- [![Replit](https://img.shields.io/badge/HellBot-Run%20On%20ReplIT-black?style=for-the-badge&logo=replit)](https://replit.com/@TheHellBot/HellBot?v=1)
+- [![Replit](https://img.shields.io/badge/Krishbot-Run%20On%20ReplIT-black?style=for-the-badge&logo=replit)](https://replit.com/@TheKrishbot/Krishbot?v=1)
 
 ### Terminal
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && pip install pyrogram && pip install instagrapi && wget https://raw.githubusercontent.com/The-HellBot/HellBot/master/hell_string.py && python3 hell_string.py`
+`pkg install python wget -y && pip install telethon && pip install pyrogram && pip install instagrapi && wget https://raw.githubusercontent.com/The-Krishbot/Krishbot/master/hell_string.py && python3 hell_string.py`
 
 - Select the type of session.
-    - HellBot Session
+    - Krishbot Session
         - Fill API ID, API HASH, Phone number (with country code).
         - Paste the OTP received on Telegram.
         - If You have Enabled 2-Step Verification then fill your password.
@@ -145,7 +143,7 @@
 ------
 ## Disclaimer
 - We won't be responsible for any kind of ban due to this bot.
-- HellBot was made for fun purpose and to make group management easier.
+- Krishbot was made for fun purpose and to make group management easier.
 - It's your concern if you spam and gets your account banned.
 - Also, Forks won't be entertained.
 - If you fork this repo and edit plugins, it's your concern for further updates.
@@ -156,14 +154,14 @@
 # License
 
 <p align="center">
-    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="HellBot License">
+    <img src="https://www.gnu.org/graphics/gplv3-or-later.png" alt="Krishbot License">
 </p>
 
 <h4 align="center">
-    Copyright (C) 2023 <a href="https://github.com/The-HellBot">The-HellBot</a>
+    Copyright (C) 2023 <a href="https://github.com/The-Krishbot">The-Krishbot</a>
 </h4>
 
-Project [HellBot](https://github.com/The-HellBot/HellBot) is free software: you can redistribute it and/or modify
+Project [Krishbot](https://CoderXKrishna/KrishXUserbot) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -178,6 +176,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## Credits
 
 - 💖 All the Dependencies
-- 💖 [Team HellBot](https://github.com/The-HellBot)
+- 💖 [Team Krishbot](https://github.com/CoderXKrishna)
 
 ------
