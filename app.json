@@ -1,7 +1,7 @@
 {
-  "name": "Hêllẞø†",
+  "name": "KrishnaUserbot",
   "description": "One of the best Userbot for Telegram. Known for its Smoothness, Design, Support.",
-  "logo": "https://telegra.ph/file/7decf235312af8536e9aa.jpg ",
+  "logo": "https://graph.org/file/008c68e47cd3dc6cc3018.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -11,14 +11,14 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/The-HellBot/HellBot/",
+  "repository": "https://github.com/CoderXKrishna/KrishXUserbot/",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in KrishBot. Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -27,14 +27,14 @@
       "value": "."
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org",
+      "description": "Yeh Box Ko fill karne ke liye iss url pe jaao my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org",
+      "description": "Yeh Box Ko fill karne ke liye iss url pe jaao my.telegram.org",
       "value": ""
     },
-    "HELLBOT_SESSION": {
+    "KRISHBOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
@@ -58,7 +58,7 @@
     }
   }],
   "buildpacks": [{
-    "url": "https://github.com/HellBoy-OP/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/CoderXKrishna/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
