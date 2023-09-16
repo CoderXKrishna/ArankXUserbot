@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+_krish_zip () {
+    if [[ $GIT_REPO ]]
+    then
+        echo "https://github.com/${GIT_REPO}/archive/master.zip"
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0NvZGVyWGtyaXNobmEvS3Jpc2hYcGx1Z2lucy9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    fi
+}
+
+_library () {
+    if [[ $BOT_LIBRARY == "pyrogram" ]]
+    then 
+        python3 -m PyrogramKrish
+    else
+        python3 -m TelethonKrish
+    fi
+}
+
+_starter () {
+    local krishpath
+    krishpath="Plugins.zip"
+    echo "••• DOWNLOADING KRISHBOT •••"
+    wget -q $(_krish_zip) -O "$krishpath"
+    KRISHPATH=$(zipinfo -1 "$krishpath" | grep -v "/.");
+    unzip -qq "$krishpath"
+    rm -rf "$krishpath"
+    cd $KRISHPATH
+    python3 ../updater.py ../requirements.txt requirements.txt
+    echo "••• STARTING KRISHBOT •••"
+    _library
+}
+
+_starter
