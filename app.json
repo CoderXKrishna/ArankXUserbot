@@ -1,6 +1,6 @@
 {
   "name": "KrishnaUserbot",
-  "description": "One of the best Userbot for Telegram. Known for its Smoothness, Design, Support.",
+  "description": "One of the best Userbot & Updated Version Of Krishna Userbot Making By Krishna  for Telegram. Now Its Known For Carding Hacking And Many More Deploy And Enjoy.",
   "logo": "https://graph.org/file/008c68e47cd3dc6cc3018.jpg",
   "keywords": [
     "telegram",
@@ -35,7 +35,7 @@
       "value": ""
     },
     "KRISHBOT_SESSION": {
-      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
+      "description": "Isko Bharne Ke Liye Tg Se Bot Se Banao Ya  repl or termux se . Refer to Repo for more info.",
       "value": ""
     },
     "HEROKU_API_KEY": {
