@@ -16,17 +16,17 @@
 </h3>
 
 ------
-![GitHub forks](https://img.shields.io/github/forks/The-KrishBot/Krishbot?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/The-KrishBot/Krishbot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/The-CoderXKrishna/KrishXUserbot?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/CoderXKrish/KrishXUserbot?style=social)
 
-![Repo Size](https://img.shields.io/github/repo-size/The-Krishbot/Krishbot?&style=social&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/CoderXkrishna/KrishXUserbot?&style=social&logo=github)
 ![Branch](https://img.shields.io/badge/Branch-Master-white?&style=social&logo=github)
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-![GitHub license](https://img.shields.io/github/license/The-Krishbot/Krishbot?&style=social&logo=github)
+![GitHub license](https://img.shields.io/github/license/CoderXkrishna/KrishXUserbot?&style=social&logo=github)
 
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-![GitHub language count](https://img.shields.io/github/languages/count/The-Krishbot/Krishbot?&style=social&logo=hyper)
+![GitHub language count](https://img.shields.io/github/languages/count/CoderXkrishna/KrishXUserbot?&style=social&logo=hyper)
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/Krishna_Userbot_Chat)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/Krish_Userbot_Support)
