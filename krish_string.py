@@ -33,18 +33,18 @@ except:
 
 
 def main():
-    print("T E A M   KRISH B O T   ! !")
-    print("Hello!! Welcome to KrishBot Session Generator\n")
+    print("TEAM KRISHXUSERBOT  ! !")
+    print("Hello!! Welcome to KrishXUserbot Session Generator\n")
     print("Human Verification Required !!")
     while True:
         verify = int(randint(1, 50))
         okvai = int(input(f"Enter {verify} to continue: "))
         if okvai == verify:
-            print("\nChoose the string session type: \n1. HellBot \n2. Telethon \n3. Pyrogram \n4. Instagram")
+            print("\nChoose the string session type: \n1. KrishXUserbot \n2. Telethon \n3. Pyrogram \n4. Instagram")
             while True:
                 library = input("\nYour Choice: ")
                 if library == "1":
-                    generate_hellbot_session()
+                    generate_krishxuserbot_session()
                     break
                 elif library == "2":
                     generate_telethon_session()
@@ -62,18 +62,18 @@ def main():
             print("Verification Failed! Try Again:")
 
 
-def generate_krishbot_session():
-    print("!!! KRISHBOT SESSION !!!")
-    print("One session for all KrishBot's Project.")
+def generate_krishxuserbot_session():
+    print("!!! KRISHXUSERBOT SESSION !!!")
+    print("One session for all KrishXuserbot's Project.")
     api_id = int(input("\nEnter APP ID here: "))
     api_hash = input("\nEnter API_HASH here: ")
     with PClient(name="krishuser", api_id=api_id, api_hash=api_hash, in_memory=True) as krish:
-        print("\nYour KRISHBOT SESSION is saved in your telegram saved messages.")
+        print("\nYour KRISHXUSERBOT SESSION is saved in your telegram saved messages.")
         _session = krish.export_session_string()
-        krish_session = krishbot_session(_session)
+        krish_session = krishxuserbot_session(_session)
         krish.send_message(
             "me",
-            f"#KRISHBOT_SESSION \n\n`{krish_session}`",
+            f"#KRISHXUSERBOT_SESSION \n\n`{krish_session}`",
         )
 
 
@@ -81,11 +81,11 @@ def generate_pyro_session():
     print("Pyrogram Session for Music Bot!")
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
-    with PClient(name="krishuser", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as krishbot:
-        print("\nYour KrishBot Session Is sent in your Telegram Saved Messages.")
-        krishbot.send_message(
+    with PClient(name="krishuser", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as krishxuserbot:
+        print("\nYour KrishXUserbot Session Is sent in your Telegram Saved Messages.")
+        krishxuserbot.send_message(
             "me",
-            f"#KRISHBOT #PYROGRAM\n\n`{krishbot.export_session_string()}`",
+            f"#KRISHXUSERBOT #PYROGRAM\n\n`{krishxuserbot.export_session_string()}`",
         )
 
 
@@ -93,16 +93,16 @@ def generate_telethon_session():
     print("\nTelethon Session For KrishBot!")
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
-    with TelegramClient(StringSession(), APP_ID, API_HASH) as krishbot:
-        print("\nYour KrishBot Session Is sent in your Telegram Saved Messages.")
-        krishbot.send_message(
+    with TelegramClient(StringSession(), APP_ID, API_HASH) as krishxuserbot:
+        print("\nYour KrishXUserbot Session Is sent in your Telegram Saved Messages.")
+        krishxuserbot.send_message(
             "me",
-            f"#KRISHBOT #TELETHON \n\n`{krishbot.session.save()}`",
+            f"#KRISHXUSERBOT #TELETHON \n\n`{krishxuserbot.session.save()}`",
         )
 
 
 def generate_insta_session():
-    print("Instagram Session For KrishBot!")
+    print("Instagram Session For KrishXUserbot!")
     cl = IClient()
     username = input("Enter your Instagram Username: ")
     password = input("Enter your Instagram Password: ")
@@ -126,7 +126,7 @@ def challenge_code(username, choice):
     return otp
 
 
-def krishbot(text):
+def krishxuserbot(text):
     res = ''.join(
         map(
             random.choice,
@@ -136,7 +136,7 @@ def krishbot(text):
     return res.strip()
 
 
-def krishbot_session(session):
+def krishxuserbot_session(session):
     pyro_format = {
         351: ">B?256sI?",
         356: ">B?256sQ?",
@@ -151,7 +151,7 @@ def krishbot_session(session):
         5: "91.108.56.130",
     }
 
-    error_msg = "Error in generating session! Report it in Krish Chats"
+    error_msg = "Error in generating session! Report it in KrishXUserbot Chats"
 
     # converting pyrogram session
     if len(session) in pyro_format.keys():
@@ -176,7 +176,7 @@ def krishbot_session(session):
                 auth_key
             )
         )
-        return f"=={krishbot('krish')}{new_session}{krishbot('bot')}=="
+        return f"=={krishxuserbot('krish')}{new_session}{krishxuserbot('bot')}=="
     else:
         return error_msg
 
