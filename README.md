@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <b>†hê Krishẞø† 🇮🇳</b>
+  <b>”*°•.˜”*°• Krishna UserBot •°*”˜.•°*”˜ 🇮🇳</b>
 </h1>
 
 <p align="center">
